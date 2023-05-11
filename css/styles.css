@@ -1,0 +1,104 @@
+/* styles.css */
+
+/* Загальні стилі */
+body {
+   background-color: #cecece;
+   color: #333333;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+h1,
+h2 {
+   text-align: center;
+   margin-top: 20px;
+}
+
+/* Стилі для особистого кабінету */
+.profile-section {
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #ffffff;
+   border: 1px solid #dddddd;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+   margin-bottom: 30px;
+}
+
+.profile-info h2 {
+   margin-top: 0;
+}
+
+.order-history table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+.container_find {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.find-us-btn {
+   display: block;
+   width: 200px;
+   margin: 20px auto;
+   padding: 10px 15px;
+   text-align: center;
+   background-color: #333;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 3px;
+}
+
+.order-history th,
+.order-history td {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #dddddd;
+}
+
+.order-history th {
+   background-color: #f3f3f3;
+}
+
+/* Стилі навігаційного меню */
+nav {
+   background-color: #333333;
+   padding: 10px;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+}
+
+nav ul li a {
+   color: #ffffff;
+   text-decoration: none;
+   padding: 5px 10px;
+}
+
+nav ul li a:hover {
+   background-color: #555;
+   color: #333;
+   border-radius: 10px;
+}
+
+footer {
+   background-color: #000;
+   padding: 20px;
+   color: #fff;
+   text-align: center;
+}

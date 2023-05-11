@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Find Us</title>
+   <link rel="stylesheet" type="text/css" href="css/shophow.css">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+   <style>
+      #map {
+         height: 400px;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="menu">
+      <nav>
+         <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="profile.html">Профіль</a></li>
+            <li><a href="cart.html">Кошик</a></li>
+            <li> <a href="shopnow.html" class="shop-now-btn">Shop Now</a>
+         </ul>
+      </nav>
+   </div>
+   <h1>Знайти нас</h1>
+   <div id="map"></div>
+   <br><br>
+   <h1>Магазин "Brigada Store"</h1><br>
+   <footer>
+      <p>&copy; 2023 Sport Store. All rights reserved.</p>
+   </footer>
+
+
+   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+   <script>
+      var map = L.map('map').setView([50.4501, 30.5234], 13);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+         maxZoom: 18,
+      }).addTo(map);
+
+      L.marker([50.4501, 30.5234]).addTo(map)
+         .bindPopup('Ми знаходимося тут!')
+         .openPopup();
+   </script>
+</body>
+
+</html>

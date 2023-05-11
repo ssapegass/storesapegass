@@ -1,0 +1,275 @@
+body {
+   font-family: Arial, sans-serif;
+   color: #000;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Styles */
+header {
+   background-color: #000;
+   padding: 20px;
+}
+
+header h1 {
+   color: #fff;
+   margin: 0;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 10px;
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.header_header {
+   display: flex;
+}
+
+.header_text {
+   color: #f0f0f0;
+   padding-left: 70%;
+}
+
+.h1_title {
+   margin-bottom: 20px;
+}
+
+.buuutt {
+   color: #fff;
+   padding: 20px 20px;
+   border: none;
+   cursor: pointer;
+}
+
+.video-background {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -4;
+}
+
+.video-background video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.video-background .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   /* Затемнений фон */
+}
+
+#homeBtn {
+   font-size: 18px;
+   background-color: #222;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+#homeBtn:hover {
+   background-color: #333;
+}
+
+.menu {
+   display: none;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #f0f0f0;
+   padding: 20px;
+   border-radius: 5px;
+   z-index: 9999;
+}
+
+.menu .menu-content {
+   text-align: center;
+}
+
+.closeButton {
+   color: #000;
+   background-color: transparent;
+   border: none;
+   font-size: 14px;
+   cursor: pointer;
+}
+
+.closeButton:hover {
+   text-decoration: underline;
+}
+
+.overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 9998;
+   display: none;
+}
+
+.overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 9998;
+   display: none;
+}
+
+.container_find {
+   border-bottom: solid #000;
+   border-top: solid #000;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.find-us-btn {
+   display: block;
+   width: 200px;
+   margin: 20px auto;
+   padding: 10px 15px;
+   text-align: center;
+   background-color: #333;
+   color: #fff;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+   text-decoration: none;
+   border-radius: 3px;
+}
+
+.container_find_title {
+   text-align: center;
+
+}
+
+
+/* Hero Section Styles */
+.hero {
+   background-color: #f2f2f2;
+   padding: 100px 20px;
+   text-align: center;
+}
+
+.hero h2 {
+   font-size: 36px;
+   margin-bottom: 20px;
+}
+
+.hero p {
+   font-size: 18px;
+   margin-bottom: 40px;
+}
+
+.btn {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #000;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+   background-color: #333;
+}
+
+/* Featured Products Section Styles */
+.featured-products {
+
+   background-color: #f3f3f3;
+   padding: 30px 100px 0 100px;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+.featured-products h3 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+.ttt {
+   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+   color: #f0f0f0;
+   margin-left: 40%;
+   font-size: 24px;
+}
+
+.shop-now-btn {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #000;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+   background-color: #333;
+}
+
+.product {
+   width: 200px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.product img {
+   width: 100%;
+   border-radius: 5px;
+   margin-bottom: 10px;
+}
+
+.product h4 {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.product p {
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+   background-color: #000;
+   padding: 20px;
+   color: #fff;
+   text-align: center;
+}
+
+.product {
+   color: #000000;
+}
+
+.container_find {
+   color: #f3f3f3;
+}
